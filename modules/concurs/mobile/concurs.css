@@ -1,0 +1,55 @@
+.voting {padding:0; margin: 0; list-style: none;}
+.voting ins {padding: 10px 0; text-decoration: none;}
+.voting.elemsStyle1 ins {width: 100%; display:inline-block; text-align: center;}
+.voting.elemsStyle2 ins {display:block; padding-left: 0;}
+.voting.elemsStyle2 .votingImg {float: left; margin: 0 15px 0 0; text-align: center; }
+.voting.elemsStyle2 img {width: 230px;}
+.voting img {border-radius: 5px; width: 280px;}
+.votingButton {padding-top: 10px; text-align: center; height: 30px;}
+.voting.elemsStyle2 .votingButton {clear: both; width: 230px;}
+.votingName {margin-bottom: 5px;}
+
+
+.votingButton a {display: inline-block; margin-right: 10px; height:14px; line-height:14px; padding:7px 15px; border-radius:5px; background:#F3F3F3; border:1px solid #CCC; font-size:12px; text-decoration: none; }
+.votingButton a:hover { background:#4887b7; color:#FFF; }
+
+.socials {text-align: center; padding-top: 10px;}
+.socials img {margin: 0 10px 0 0; cursor: pointer;}
+.TextQuot { font-weight: normal; color:#444; }
+.nodePic {float: left; margin: 0 15px 10px 0;}
+.nodePic img {border-radius: 5px;}
+
+
+.LentaPictureOld { float:left; } .LentaPictureOld img { border-radius:5px; width:320px; border:none; margin:0 10px 10px 0; } .LentaItem a { text-decoration:underline; } .LentaItem a:hover { text-decoration:none; } 
+
+.LentaPicture-picitem { width:710px; height:400px; border:none; position:relative; } .LentaPicture-picitem img { width:710px; height:400px; border:none; border-radius:5px; z-index:10; } 
+.LentaPicture-Title { position:absolute; bottom:0; left:0; width:690px; padding:10px; color:#FFF; z-index:20; border-bottom-right-radius:5px; border-bottom-left-radius:5px; text-shadow:1px 1px 2px black; background-color:rgba(0,0,0,0.5); }
+.LentaPicture-Cens { position:absolute; top:5px; right:5px; padding:5px; color:#FFF; z-index:20; text-shadow:1px 1px 2px black; background-color:rgba(0,0,0,0.5); border-radius:10px; }
+.LentaPicture-Title h1 { color:#FFF; font-size:28px; line-height:30px; margin:0; }
+.LentaPicture-Cens h1 { color:#FFF; font-size:20px; line-height:20px; margin:0; }
+
+.ItemLidOld { background:#F5F5F5; padding:8px; border-radius:5px; font-size:15px; font-style:italic; font-weight:bold; }
+kstati { clear:both; background:#F5F5F5; padding:8px; border-radius:5px; font-size:15px; font-style:italic; font-weight:bold; display:block; }
+.LentaItem p { } .LentaItem p:first-letter { font-weight:bold; font-size:15px; color:#999; }
+.ItemLid { padding:0 30px; font-size:15px; font-style:italic; font-weight:bold; min-height:30px; background: url(ql.png) left center no-repeat, url(qr.png) right center no-repeat; }
+.ItemAuth { width:300px; float:left; line-height:18px; font-size:11px; } .ItemAuth img { float:left; margin-right:7px; width:36px; height:36px; border-radius:5px; }
+.ItemAuth a{ font-size:12px; font-weight:bold; } .ItemAuth b{ color:#999; font-weight:normal; }
+.ItemTags { float:right; text-align:right; line-height:18px; font-size:11px; width:400px; } .ItemTags a { margin-left:5px; } 
+.ItemOrder img { width:250px; border:none; margin-right:10px; border-radius:5px; } .ItemOrder td { padding:9px 0; border-bottom:1px dotted #DDD; } .ItemOrder h4 { margin-top:0; }
+.ItemAlbum { text-align:center; } .ItemAlbum img { float:left; margin:0 12px 10px 0; width:120px; border:1px solid #DDD; padding:4px; border-radius:5px; }
+
+.horoscope {padding: 0; margin: 0; list-style: none;}
+.horoscope img {float: left;}
+
+.EndText { background:#F5F5F5; padding:8px; border-radius:5px; font-size:14px; font-style:italic; }
+
+.NewsLentaBlock .Time { float:left; text-align:center; font-family:Cuprum; font-size:12px; font-weight:normal; width:53px; color:#999; overflow:hidden; } .NewsLentaBlock .Time b{ display:block; text-align:center; padding:5px; background:#FFF; margin:20px 0; line-height:15px; }
+.NewsLentaBlock .Pic { float:left; height:80px; width:100px; overflow:hidden; margin:0 10px; } .NewsLentaBlock .Pic img { height:80px; width:100px; border-radius:5px; border:none; }
+.NewsLentaBlock .Text { float:left; width:540px; } .NewsLentaBlock .Caption { height:50px; overflow:hidden; padding-top:3px; }
+.NewsLentaBlock .Caption H2 { font-size:20px; line-height:20px !important; margin:0; padding:0; text-decoration:none !important; }
+.CatAndAuth { height:15px; line-height:15px; overflow:hidden; width:540px; margin-top:3px; font-size:12px; color:#999; } .CatAuth { float:left; } .Coms { float:right; }
+.PicAuth { float:right; margin-right:5px; font-family: Cuprum; font-size: 11px; color:#777; margin-bottom:-10px; } .PicAuth a:link, .PicAuth a:visited, .PicAuth a:active { color:#777 !important; } .PicAuth a:hover { color:#333 !important; }
+
+.AdvBlock { font-size:12px; color:#777; } .AdvBlock a:link, .AdvBlock a:visited, .AdvBlock a:active { color:#444 !important; } .AdvBlock a:hover { color:#000 !important; }
+  
+.PayBlock { font-size:12px; padding-left:97px; line-height:14px; background: url(money.png) 2px 2px no-repeat; }

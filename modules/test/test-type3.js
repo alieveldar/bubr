@@ -1,0 +1,3 @@
+var res=0; var answered=0; var anstype=Array(); function clickanswer(elem) { var id=$(elem).attr("id"); if ($(elem).hasClass('testanswering')) { var d=id.split("-"); var type=d[2]; $('.answer-'+d[1]).removeClass("testanswering"); answered=answered-(-1);
+$(elem).addClass("testok"); $("#ans-"+d[1]).addClass("anstextok"); if (!anstype[type]) { anstype[type]=0; } anstype[type]++; if (answered==total) { getTestResult(res); }}}
+function getTestResult(res) { var maxval=0; var maxind=0; console.log(end); console.log(anstype); anstype.forEach(function(element, index) { if (element>=maxval) { maxind=index; maxval=element; }}); if (end[maxind] && maxind!=0) { ViewBlank("Спасибо!", end[maxind]); }}

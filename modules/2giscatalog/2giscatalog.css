@@ -1,0 +1,20 @@
+.Gis2Form, .Gis3Form {padding-right: 10px; vertical-align: bottom;}
+.Gis2Form input {border-radius: 4px; padding: 7px; width: 290px; margin: 0;}
+.Gis3Form input {width: 80px; height: 30px; margin: 0;}
+.Gis2Form .title {font-style: italic;}
+
+#myMapId {padding: 5px; height: 250px; border: 1px solid #ccc;}
+
+.AdvGis {background: #eef9f9;}
+.MainItem1Gis h3 a, .AdvGis h3 a {color: #4887b7 !important; font-family: Cuprum;}
+.MainItem1Gis h3 span, .AdvGis h3 span {font-size: 12px;}
+.Satelite2Gis {font-style: italic; font-size: 12px; color: #666;}
+.Satelite2Gis a {color: #666 !important; margin-left: 5px;}
+.Satelite2Gis a.filials {text-decoration: underline;}
+.MainItem1Gis a:hover, .GIS2Rub1 a:hover, .AdvGis a:hover {color: #ff5400 !important; text-decoration: underline;}
+.GIS2Rub1 {font-size: 22px; line-height: 15px; padding: 5px 0 5px 0; color: #4887b7;}
+.GIS2Rub1 a {font-size: 15px; font-weight: bold; color: #4887b7 !important;}
+
+.Table2Gis {font-size: 13px; border-collapse: collapse;}
+.Gis2TRNmaes td {width: 3%; text-align: center; background: #E6E6E6; font-weight: bold;}
+.Gis2TRDays {white-space:nowrap; text-align: center;}

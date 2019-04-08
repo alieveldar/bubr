@@ -1,0 +1,5 @@
+var GET=parseGetParams(); var pid=GET["id"];
+
+function ItemDelete(id, tab, returnUrl) { caption="Подтвердите удаление"; text='Удалить запись?<br>Данное действие будет невозможно отменить.'+"<div class='C25'></div><div class='LinkG' style='float:left; margin-right:5px;'><a href='javascript:void(0);' onclick='ActionAndUpdate("+id+", \"DEL\", \""+tab+"\", \"\", \""+returnUrl+"\");'>Удалить</a></div><div class='LinkR'><a href='javascript:void(0);' onclick='CloseBlank(); ReturnI("+id+", \""+tab+"\")'>Отмена</a></div><div class='C10'></div>"; ViewBlank(caption, text); }
+
+function ActionAndUpdate(id, act, tab, ord, returnUrl) { CloseBlank(); JsHttpRequest.query('modules/fromusers/list-JSReq.php',{'id':id,'act':act,'tab':tab,'ord':ord},function(result,errors){ if(result){ /**/ if (act=="DEL"){ document.location = returnUrl } /**/ }},true); }

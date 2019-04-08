@@ -1,0 +1,22 @@
+.imgCon {margin:10px 10px 10px 0; display: inline-block;} .imgCon .img {height: 100px; float: left;} .remove {width: 16px; height: 16px; cursor: pointer;} .qq-upload-success {display: none;}
+.Albums {margin-left: -20px;} .WhiteBlock.Item {display:inline-block; text-decoration:none; vertical-align:top; width: 208px; margin: 0 0 20px 20px; position: relative;}
+.Cover {margin-bottom: 3px; height: 172px;} .Cover img {width: 100%; border-radius:5px;}
+.Add {text-align: center;} .Add .SaveButton {display: inline-block; line-height:35px; border: 1px solid #ccc; background-color: buttonface;}
+.AdminPanel {position: absolute; top: -12px; right: 5px; background: #fff; height: 16px; padding: 3px 7px 3px 0; border-radius:5px; border: 1px solid #DEDEDE; display: none;}
+.Item:hover .AdminPanel {display: block;} .Act {float: right; width: 16px; margin: 0 0 0 7px;} .Act img {width: 16px; margin: 0 !important;}
+.winner {position: absolute; top:7px; left: 7px; width:208px; height:14px; padding:3px 0; border-radius:5px 5px 0 0; font-size:13px; line-height:14px; font-weight:bold; color: #fff; background:#f00; text-align: center;}
+
+
+.AddBtnPic { font-size: 24px; display: block; padding:20px 0; border-radius: 10px; background: rgba(200,200,200,0.5); }
+.AlbumPre a { display: block; float:left; overflow: hidden; margin-right:10px; width:80px; margin-bottom:5px; }
+.AlbumPre a img, .AlbumFull img { width:100%; height:auto; border:none; margin-top:5px; }
+
+
+.Items { padding:8px; background:rgba(0,0,0,0.05); border-top:1px dashed #CCC; border-bottom:1px dashed #CCC; overflow: hidden; margin-bottom:10px; }
+
+.ItemAuth { font-size:12px; overflow: hidden; color:#777; line-height:25px; float:left; }
+.ItemLikes { float:right; line-height:25px; font-size:12px; }
+
+.ItemLikes .disl { color:#FFF; display: block; background:URL(down.png) 6px center no-repeat #c40900; padding:0 10px 0 28px; float:right; margin-right:10px; text-decoration: none; border-radius:3px; } 
+.ItemLikes .like { color:#FFF; display: block; background:URL(up.png) 6px center no-repeat #0a791f; padding:0 10px 0 28px; float:right; margin-right:10px; text-decoration: none; border-radius:3px; }
+.ItemLikes .ttl { float:right; display: block; } 

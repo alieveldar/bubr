@@ -1,0 +1,26 @@
+.FullInp { padding:10px; border-radius:10px; width:400px; border:1px solid #CCC; font:14px/20px "PT Sans Caption"; color:#000; } .FullInp:hover { border:1px solid #346690; }
+.SendInp { padding:10px; border-radius:10px; width:200px; border:1px solid #CCC; font:14px/20px "PT Sans Caption"; color:#FFF; background:#346690; border:none !important; cursor: pointer; }
+.Round { margin:0 0 20px 0; padding:7px; border:1px solid #AAA; border-radius:10px; overflow: hidden; line-height:34px; }
+.Round b { font-size:18px; } .Round a { display: block; float:right; padding:0 12px; border-radius:7px; background:#346690; color:#FFF; text-decoration: none; } .Round a:hover { color:#000; background:#CCC; }
+.AddArt { float:right; overflow: hidden; }
+.AddArt a { display: block; float:right; padding:7px 12px; border-radius:7px; background:#346690; color:#FFF; text-decoration: none; } .AddArt a:hover { color:#000; background:#CCC; }
+.RoundArts { margin:0 0 10px 0; padding:7px; border:1px solid #AAA; border-radius:10px; overflow: hidden; }
+.FullArea { padding:1.5%; border-radius:10px; width:97%; border:1px solid #CCC; font:13px/19px "PT Sans Caption"; color:#000; height:100px; margin-bottom:10px; } .FullArea:hover { border:1px solid #346690; }
+.MsgFromTo1, .MsgFromTo0 { font:13px/16px "PT Sans Caption"; color:#000; border-radius:5px; padding:10px; } .MsgFromTo1 i, .MsgFromTo0 i { font:11px/16px "PT Sans Caption"; color:#777; font-style: normal; }  
+.MsgFromTo0 b { font:11px/16px "PT Sans Caption"; color:#F00; font-style: normal; } .MsgFromTo1 { float:left; max-width:80%; background:#EEE;  } /*user*/ .MsgFromTo0 { float:right; max-width:80%; background:#eaf5ff; } /*admin*/
+.UserArea { padding:1.5%; border-radius:10px; width:96%; border:1px solid #AAA; font:13px/19px "PT Sans Caption"; color:#000; height:100px; margin-bottom:10px; } .FullArea:hover { border:1px solid #346690; }
+.UserInpt { padding:1.5%; border-radius:10px; width:96%; border:1px solid #AAA; font:13px/19px "PT Sans Caption"; color:#000; margin-bottom:10px; } .FullArea:hover { border:1px solid #346690; }
+#uavatar {opacity:0; filter:alpha(opacity:0); font-size:199px;cursor:pointer;padding:0px;margin:0px;border:none; margin-left:-450px;} .MainPic { float:right; width:345px; line-height:14px; font-size:11px; color:#666; margin-bottom:15px; }
+#MainPicI { float:left; margin-right:15px; width:200px; height:200px; border:1px solid #CCC; border-radius:10px; overflow:hidden; } #MainPicI img { width:200px; height:200px; border:none; border-radius:5px; }
+#sendstat { display:none; -webkit-transition-property:all; -webkit-transition-duration:0.2s; -webkit-transition-timing-function:ease; }
+#Podstava { overflow:hidden; width:300px; height:40px; margin-top:10px; float:left; overflow:hidden; } #Podstava input { cursor:pointer !important; }
+.Podstava3 { background:url(uploadpic.png) center center no-repeat; } .Podstava3:hover { background:url(uploadpichover.png) center center no-repeat; } .Podstava4 { background:url(uploadpicajax.gif) center center no-repeat; }
+.AddAlbumPic { overflow:hidden; margin-top:25px; } .AddAlbumPic .DelPic { font-size: 12px; color:red; } .AddAlbumPic .Areas { float:right; overflow:hidden; width:415px; }
+.AddAlbumPic .Photo { float:left; overflow:hidden; margin-right:15px; width:200px; text-align: center; } .AddAlbumPic .Photo img { margin-bottom:10px; width:100%; height:auto; border:none; border-radius:5px; } 
+#ShowError { display:none; margin-bottom:20px; padding:10px; background:#c80909; color:#FFF; border-radius:10px; } #ShowError p { margin-bottom:7px; } 
+#ShowSuccess { margin-bottom:20px; padding:10px; background:#276f00; color:#FFF; border-radius:10px; } #ShowSuccess a { color:#FFF; } 
+.RoundArts table {width:100%; border:none; border-collapse:collapse; padding:0; font-size:13px; } .RoundArts table td { padding:6px; } .RoundArts table tr:nth-of-type(2n+2) { background:rgba(200,200,200,0.35); }
+.RoundArts table .act1, .RoundArts table .act2, .RoundArts table .act3 { width:1%; white-space:nowrap; font-size:11px; color:#000; } .RoundArts table .act1 a, .RoundArts table .act2 a, .RoundArts table .act3 a { padding:4px; border-radius:4px; }
+.RoundArts table .act1 a { color:#007700; } .RoundArts table .act1 a:hover { background:#007700; color:#FFF; } .RoundArts table .act2 a { color:#cd6f00; } .RoundArts table .act2 a:hover { background:#cd6f00; color:#FFF; }
+.RoundArts table .act3 a { color:#070; } .RoundArts table .act3 a:hover { background:#070; color:#FFF; } .RoundArts table data { color:#777; font-size:9px; }
+.Yes, .No { display:block; padding:10px 15px; border-radius:10px; font:14px/20px "PT Sans Caption"; color:#FFF !important; } .Yes { background:#FF0000; float:left; } .No { background:#136700; float:right; } .Yes:hover { background:#a20303; } .No:hover { background:#1f4c14; } 

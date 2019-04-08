@@ -1,0 +1,34 @@
+h1 { font-size:25px !important;}
+.ForumName { font-family:Tahoma; padding:6px 8px; border-radius:5px; background:#1b8daf; font-size:16px; font-weight:bold; color:#FFF; }
+.ForumTable { border:none; border-collapse:collapse; font-size:11px; line-height:13px; color:#777; } .ForumTable td { padding:7px; } .ForumTable tr { border-bottom:1px dashed #BBB; } 
+.TableHeader { color:#1b8daf; font-size:13px; } .TableHeader td { padding:3px 6px; } .ForumTable td { border-right:1px dashed #BBB; } .ForumTable td:last-child { border-right:none; }
+.ForumTable h2 { font-size:14px; font-weight:bold; padding: 0; margin:0; } .ForumTable h2 a:link, .ForumTable h2 a:active, .ForumTable h2 a:visited { text-decoration: underline; color:#000 !important; } .ForumTable h2 a:hover { text-decoration:none; color:#f46e01 !important; }
+
+.ForumTable .SmallH2 { font-size:13px; font-weight:normal; } #newtheme { width:99%; height:400px; } .qq-uploader { width:610px; }
+
+.ForumItem0, .ForumItem1 { padding-left:25px !important; font-size:11px; } .ForumTable .Digit { font-family:Cuprum; text-align:center; font-size:13px; } .ForumTable .Digit a { color:#999 !important; text-decoration:none; }  
+.ForumTable .Update { font-family:Cuprum; font-size:12px; line-height:15px; text-align:left; white-space:nowrap; color:#888; }  .ForumTable .Update b { color:#f46e01; }
+.ForumTable .Update a:link, .ForumTable .Update a:active, .ForumTable .Update a:visited { color:#999 !important; text-decoration:underline; } .ForumTable .Update a:hover { color:#f46e01 !important; text-decoration:none; }
+
+.AddForumTheme { float:left; font-size:15px; height:30px; } .PagerForumTheme { float:right; text-align:right; height:30px; }
+.PagerForumTheme .pager { padding:0; font-size:11px; margin-top:-2px; } .PagerForumTheme .pager a { padding:1px 2px; min-width:12px; margin:0 1px; border:1px solid #FFF; }
+
+.AddForumTheme a:link, .AddForumTheme a:active, .AddForumTheme a:visited, .AddForumTheme a:hover { padding:6px 10px 6px 26px; background:url(/modules/forum/add.png) 7px center no-repeat #1b8daf; border:2px solid #FFF; border-radius:5px; color:#FFF !important; text-decoration: none; } .AddForumTheme a:hover { background-color:#ea7400 !important; }
+.ForumLink { float:left; height:30px; margin-right:10px; } .ForumRink, .ForumDink { float:right; height:30px; margin-left:10px;} 
+.ForumLink a:link, .ForumLink a:active, .ForumLink a:visited, .ForumLink a:hover { padding:6px 10px; background: #1b8daf; border:2px solid #FFF; border-radius:5px; color:#FFF !important; text-decoration: none; } .ForumLink a:hover { background-color:#ea7400 !important; }
+.ForumRink a:link, .ForumRink a:active, .ForumRink a:visited, .ForumRink a:hover { padding:6px 10px; background: #1b8daf; border:2px solid #FFF; border-radius:5px; color:#FFF !important; text-decoration: none; } .ForumRink a:hover { background-color:#ea7400 !important; }
+.ForumDink a:link, .ForumDink a:active, .ForumDink a:visited, .ForumDink a:hover { padding:6px 10px; background: #F00; border:2px solid #FFF; border-radius:5px; color:#FFF !important; text-decoration: none; } .ForumDink a:hover { background-color:#ea7400 !important; }
+ 
+#newcat, .undertheme, .uppertheme { font-size:13px !important; } .undertheme { color:#000; } .uppertheme { color:#1b8daf !important; font-weight: bold !important; }
+
+.ForumThemeText img { max-width:590px; max-height:600px; border:none; border-radius:5px; }
+
+.ForumThemeText .CommentItem { margin-bottom:0px !important; border-bottom:none  !important; padding-bottom:5px; } .ForumThemeText  .CommentItem a { text-decoration: underline !important; }
+.ForumThemeText .ItemAlbum { float:left; margin:0 10px 10px 0px; overflow: hidden; height:90px; } .ForumThemeText .ItemAlbum img { height:80px; margin:0 10px 10px 0; border:none; border-radius:5px;  } 
+.ForumTable .LockedTheme { background:url(lock.png) 4px 11px no-repeat; }
+
+.RightItem table { width:100%; margin:10px 0; border-collapse: collapse;} 
+.RightItem tr { margin:0; padding: 0; }
+.RightItem td { margin:0; padding:5px; border:1px dotted #CCC; width:1%; }
+
+.RightItem tr:first-child { background:#1b8daf; color:#FFF; }

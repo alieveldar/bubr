@@ -1,0 +1,3 @@
+*.sql
+*.sql.*
+/modules/standart/DataBAse.php

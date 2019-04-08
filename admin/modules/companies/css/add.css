@@ -1,0 +1,11 @@
+.Catalog {max-height:300px; overflow-y:scroll; } 
+.Catalog ins {display: block; text-decoration: none;}
+.Catalog ins.CatalogLvl0 {float: left; width: 350px; margin-bottom: 15px;}
+.Catalog span.CatalogLvl0 {font-size: 16px; font-weight: bold; letter-spacing:-1px; display:inline-block; margin-bottom: 5px;}
+.Catalog ins.CatalogLvl1 {margin: 0 0 5px 0;}
+.Catalog a.CatalogLvl1, .Catalog span.CatalogLvl1 {margin-left: 10px;}
+
+.imgCon {display: inline-block;}
+.imgCon .img {max-height: 100px; max-width:200px; float: left;}
+.remove {width: 16px; height: 16px; cursor: pointer;}
+.qq-upload-success {display: none;}

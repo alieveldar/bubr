@@ -1,0 +1,15 @@
+.eventPic {float: left; margin: 0 10px 10px 0; } .eventPic img { border-radius:7px;  }
+
+.dgMarker.custom {padding: 3px; background: #fff; border: 1px solid #999; border-radius: 3px; cursor: pointer;} .dgMarker.custom:hover {box-shadow: 0 0 5px #666; z-index:505 !important;}
+.dgMarker.custom:before { content: ' '; position: absolute; width: 0; height: 0; left: 4px; bottom: -8px; border: 4px solid; border-color: #999 transparent transparent #999; }
+.dgMarker.custom:after { content: ' '; position: absolute; width: 0; height: 0; left: 5px; bottom: -6px; border: 3px solid; border-color: #fff transparent transparent #fff; }
+
+.readmore {display:inline-block; border-radius:5px; padding:4px 8px; color:#333; background:#ddd; font-weight: bold; font-size: 11px;} .readmore:hover {color: #fff; background: #666;}
+
+
+.NewsLentaBlock .Time { float:left; text-align:center; font-family:Cuprum; font-size:12px; font-weight:normal; width:53px; color:#999; overflow:hidden; } .NewsLentaBlock .Time b{ display:block; text-align:center; padding:10px 5px; background:#FFF; margin:20px 0; line-height:15px; }
+.NewsLentaBlock .Pic { float:left; height:80px; width:100px; overflow:hidden; margin:0 10px; } .NewsLentaBlock .Pic img { height:80px; width:100px; border-radius:5px; border:none; }
+.NewsLentaBlock .Text { float:left; width:540px; } .NewsLentaBlock .Caption { height:50px; overflow:hidden; padding-top:3px; }
+.NewsLentaBlock .Caption H2 { font-size:20px; line-height:20px !important; margin:0; padding:0; text-decoration:none !important; }
+.CatAndAuth { height:15px; line-height:15px; overflow:hidden; width:540px; margin-top:3px; font-size:12px; color:#999; } .CatAuth { float:left; } .Coms { float:right; }
+.PicAuth { float:right; margin-right:5px; font-family: Cuprum; font-size: 11px; color:#777; margin-bottom:-10px; } .PicAuth a:link, .PicAuth a:visited, .PicAuth a:active { color:#777 !important; } .PicAuth a:hover { color:#333 !important; }

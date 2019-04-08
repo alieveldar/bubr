@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /404
+Disallow: /403
+Disallow: /users
+Disallow: /users/*
+Host: bubr.ru
+Sitemap: http://bubr.ru/sitemap.xml

@@ -1,0 +1,12 @@
+.FullInp { padding:10px; border-radius:10px; width:400px; border:1px solid #CCC; font:14px/20px "PT Sans Caption"; color:#000; } .FullInp:hover { border:1px solid #346690; }
+.SendInp { padding:10px; border-radius:10px; width:200px; border:1px solid #CCC; font:14px/20px "PT Sans Caption"; color:#FFF; background:#346690; border:none !important; cursor: pointer; }
+.Round { margin:0 0 20px 0; padding:7px; border:1px solid #AAA; border-radius:10px; overflow: hidden; line-height:34px; }
+.Round b { font-size:18px; } .Round a { display: block; float:right; padding:0 12px; border-radius:7px; background:#346690; color:#FFF; text-decoration: none; } .Round a:hover { color:#000; background:#CCC; }
+.RoundArts { margin:0 0 10px 0; padding:7px; border:1px solid #AAA; border-radius:10px; overflow: hidden; }
+.FullArea { padding:1.5%; border-radius:10px; width:97%; border:1px solid #CCC; font:13px/19px "PT Sans Caption"; color:#000; height:100px; margin-bottom:10px; } .FullArea:hover { border:1px solid #346690; }
+.MsgFromTo0 b { font:11px/16px "PT Sans Caption"; color:#F00; font-style: normal; } .MsgFromTo1 { float:left; max-width:80%; background:#EEE;  } /*user*/ .MsgFromTo0 { float:right; max-width:80%; background:#eaf5ff; } /*admin*/
+.UserArea { padding:1.5%; border-radius:10px; width:96%; border:1px solid #AAA; font:13px/19px "PT Sans Caption"; color:#000; height:100px; margin-bottom:10px; } .FullArea:hover { border:1px solid #346690; }
+.UserInpt { padding:1.5%; border-radius:10px; width:96%; border:1px solid #AAA; font:13px/19px "PT Sans Caption"; color:#000; margin-bottom:10px; } .FullArea:hover { border:1px solid #346690; }
+#ShowError { display:none; margin-bottom:20px; padding:10px; background:#c80909; color:#FFF; border-radius:10px; } #ShowError p { margin-bottom:7px; } 
+#ShowSuccess { margin-bottom:20px; padding:10px; background:#276f00; color:#FFF; border-radius:10px; } #ShowSuccess a { color:#FFF; } 
+.Yes, .No { display:block; padding:10px 15px; border-radius:10px; font:14px/20px "PT Sans Caption"; color:#FFF !important; } .Yes { background:#FF0000; float:left; } .No { background:#136700; float:right; } .Yes:hover { background:#a20303; } .No:hover { background:#1f4c14; } 

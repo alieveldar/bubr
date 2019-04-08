@@ -1,0 +1,13 @@
+.voting {padding:0; margin: 0; list-style: none;}
+.voting li {float: left; text-align: center; padding: 10px 10px 0;}
+.voting.count3 li {width: 223px; height: 250px;}
+.voting.count3 .votingImg {height: 170px;}
+.voting.count2 li {width: 345px; height: 355px;}
+.voting.count2 .votingImg {height: 280px;}
+.voting.count1 li {width: 710px; height: 490px;}
+.voting.count1 .votingImg {height: 400px;}
+.votingAuthor {font-size: 11px;}
+.votingImg img {height: 100%;}
+.votingImg {padding-top: 3px;}
+.votingButton {padding-top: 10px;}
+.votingButton a {display: inline-block; margin-right: 10px;}

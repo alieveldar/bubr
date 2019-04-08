@@ -1,0 +1,1 @@
+function getFileName(){ var name=$('#photo').val(); $("#FileName").html(name); } function EndSelect(id, s){ var info=s.x1+','+s.y1+','+s.x2+','+s.y2; $('#inp-'+id).val(info); }

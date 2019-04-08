@@ -1,0 +1,4 @@
+.imgCon {display: inline-block;}
+.imgCon .img {max-height: 100px; max-width:200px; float: left;}
+.remove {width: 16px; height: 16px; cursor: pointer;}
+.qq-upload-success {display: none;}

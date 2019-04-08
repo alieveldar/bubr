@@ -1,0 +1,1 @@
+function DeleteVarItem(id) { var el="#Line"+id; $("#Act"+id).html(loader); JsHttpRequest.query('modules/adm/rss-JSReq.php',{'id':id},function(result,errors){if(result){ $(el).fadeOut(500, function () { $(el).remove(); if(!$('form:last input:text').size()) $('form:last').remove(); }); /*e*/ }},true);}

@@ -1,0 +1,3 @@
+function ItemDelete(id, returnUrl) { caption="Подтвердите удаление"; text='Удалить запись?<br>Данное действие будет невозможно отменить.'+"<div class='C25'></div><div class='LinkG' style='float:left; margin-right:5px;'><a href='javascript:void(0);' onclick='ActionAndUpdate("+id+", \"DEL\", \""+returnUrl+"\");'>Удалить</a></div><div class='LinkR'><a href='javascript:void(0);' onclick='CloseBlank(); ReturnI("+id+")'>Отмена</a></div><div class='C10'></div>"; ViewBlank(caption, text); }
+
+function ActionAndUpdate(id, act, returnUrl) { CloseBlank(); JsHttpRequest.query('modules/adm/mistakes-update-JSReq.php',{'id':id,'act':act},function(result,errors){ if(result){ /**/ if (act=="DEL"){ document.location = returnUrl } /**/ }},true); }
